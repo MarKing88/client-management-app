@@ -1,0 +1,11 @@
+Feature: Client Management
+
+Scenario: Registering a Client
+    Given I am on the client form
+    When I enter name, email, address, and password
+    Then the client should be saved in the database when I click Register
+
+Scenario: Scheduling a meeting
+    Given I am on the meeting form
+    When I enter meeting topic, time, and number of people
+    Then the meeting should be saved in the database when I click Schedule

@@ -1,0 +1,15 @@
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <input type="text" placeholder="Client Name" [(ngModel)]="name" name="name" required />
+  </div>
+  <div>
+    <input type="email" placeholder="Email" [(ngModel)]="email" name="email" required />
+  </div>
+  <div>
+    <input type="text" placeholder="Company" [(ngModel)]="company" name="company" required />
+  </div>
+  <div>
+    <input type="tel" placeholder="Phone Number" [(ngModel)]="phone" name="phone" required />
+  </div>
+  <button type="submit">Register</button>
+</form>

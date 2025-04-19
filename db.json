@@ -1,0 +1,42 @@
+{
+  "clients": [
+    {
+      "id": "d5ff",
+      "address": "",
+      "password": "",
+      "repeatPassword": ""
+    },
+    {
+      "id": "d95a",
+      "address": "",
+      "password": "",
+      "repeatPassword": ""
+    },
+    {
+      "id": "554f",
+      "address": "John Doe",
+      "password": "1234",
+      "repeatPassword": "1234"
+    },
+    {
+      "id": "8c5c",
+      "address": "123 any street",
+      "password": "123",
+      "repeatPassword": "123"
+    },
+    {
+      "id": "1782",
+      "name": "John Doe",
+      "email": "marcking88@gmail.com",
+      "company": "ABC Hospital",
+      "phone": "123456789"
+    },
+    {
+      "id": "a8cd",
+      "name": "Marc King",
+      "email": "marcking88@gmail.com",
+      "company": "ABC Hospital",
+      "phone": "8015144290"
+    }
+  ]
+}
